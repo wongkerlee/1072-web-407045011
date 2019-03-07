@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: Raleway;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800; 
+    margin: 1.65%;
+    border-bottom: 2px solid #f1f1f1; 
+    width: 30%;
+    padding-bottom: 13px
+}
+
+#col3 img {
+    width: 30%;
+    margin: 1.65%;
+    float: left;
+}
+
+#col4 img {
+    width: 21%;
+    margin: 2%;
+    float: left;
+}
