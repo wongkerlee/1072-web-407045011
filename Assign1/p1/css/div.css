@@ -1,0 +1,134 @@
+body{
+    background: white;
+    margin: 0%;
+}
+
+#container{
+    margin: 0 0 0 0px;
+    padding: 0;
+    height: 610px;
+    width: 100%;
+}
+
+
+#header{
+        background: rgb(255, 213, 157);
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+#header::first-letter{
+    margin-left: 5px;
+}
+
+#logo{
+    background: rgba(255, 87, 20, 0.2);
+    float: left;
+    width: 21%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+
+#asidecontent{
+    background: rgb(231, 231, 231);
+    float: left;
+    width: 21%;
+    height: 549px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+nav{
+    background: rgb(221, 181, 128, .3);
+    width: 90%;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3px;
+}
+
+#article{
+    background: silver;
+    width: 79%;
+    float: right;
+    height: 549px;
+    padding-top: 3px;
+}
+
+#article::first-letter{
+    margin-left: 40px;
+}
+
+#section1{
+    background:lightblue;
+    width: 90%;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3px;
+}
+
+#section1::first-letter{
+    margin-left: 10px;
+
+}
+
+#display{
+    background: white;
+    width: 60%;
+    height: 310px;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 310px;
+}
+
+#piccontainer{
+    background: rgb(221, 240, 248);
+    width: 90%;
+    height: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left
+}
+
+#smallpic, #smallpic2, #smallpic3, #smallpic4, #smallpic5{
+    background: rgb(128, 128, 128, .3);
+    float: left;
+    width: 15%;
+    height: 80px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 20px;
+text-align: center;
+line-height: 80px;
+}
+
+p{
+    margin-left: 10px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+#footer{
+    background:rgba(255, 217, 0, 0.9);
+    width: 100%;
+    height: 30px;
+    margin-top: 9px;
+    padding-top: 10px;
+}
+
+#footer::first-letter{
+    margin-left: 10px;
+}
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Div Demo</title>
+
+    <style>
+    #heading{
+        height: 100px;
+        width: 100%;
+        background: darkcyan;
+        text-align: center;
+    }
+
+    #menu{
+        height: 500px;
+        width: 20%;
+        background: darkturquoise;
+        float: left;
+    }
+
+    #section{
+        height: 500px;
+        width: 80%;
+        background: rgb(152, 230, 230);
+        float: right;
+
+    }
+
+    .clearfix{
+        clear: both;
+    }
+
+    #footer{
+        height: 70px;
+        width: 100%;
+        background: darkgray;
+
+    }
+    ul li{
+        list-style-type: none;
+        float: left;
+        margin: 0px 10px;
+        font-size: 20px;
+    }
+
+    ul li a{
+        background-color: darksalmon;
+        padding: 5px;
+    }
+
+    ul li a:hover{
+        background-color: crimson;
+    }
+
+    </style>
+    <script>
+    function changeColor(index){
+        let p = document.getElementById('section');
+        switch(index){
+            case 1:
+            p.style.backgroundColor = "yellow";
+            break;
+            case 2:
+            p.style.backgroundColor = "azure";
+            break;
+            case 3:
+            p.style.backgroundColor = "cornflowerblue";
+            break;
+        }
+    }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div id="heading">
+            <h1>Heading</h1>
+            <ul>
+                <li onclick="changeColor(1)"><a href="#">Link 1</a></li>
+                <li onclick="changeColor(2)"><a href="#">Link 2</a></li>
+                <li onclick="changeColor(3)"><a href="#">Link 3</a></li>
+
+            </ul>
+        </div>
+
+        <div id="menu">
+                Menu       
+        </div>
+
+        <div id="section">
+                Section
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div id="footer">
+            footer
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
